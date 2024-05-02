@@ -31,8 +31,10 @@ class Solution {
 #Initialize solution object
 $solution = new Solution();
 #Take two strings as input and remove newline character from string input
+echo "Enter a string: \n";
 $str1 = fgets(STDIN);
 $str1 = rtrim($str1, "\n");
+echo "Enter another string of the same length: \n";
 $str2 = fgets(STDIN);
 $str2 = rtrim($str2, "\n");
 #Pass input to function and output result
